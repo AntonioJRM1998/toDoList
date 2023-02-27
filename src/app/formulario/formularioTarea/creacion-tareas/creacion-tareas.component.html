@@ -1,0 +1,19 @@
+<div class="contenedorFormulario">
+    <div class="formulario">
+        <form action="" class="formularioTareas">
+            <h2>Tarea a realizar</h2>
+            <label for="nombreTarea">Tarea</label><br>
+            <input type="text" id="tareaname" value="" required><br>
+            <label for="importanciaTare">Prioridad</label><br>
+            <select name="Prioridad" id="selector">
+                <option value="elegirPrioridad">--Establece una prioridad--</option>
+                <option value="baja">Prioridad baja</option>
+                <option value="media">Prioridad media</option>
+                <option value="critica">Prioridad critica</option>
+            </select><br>
+            <label for="importanciaTare">Descripcion</label><br>
+            <input type="text" id="desc" required><br>
+            <button id="botonTarea" (click)="mandarFormulario()">Crear Tarea</button>
+        </form>
+    </div>
+</div>

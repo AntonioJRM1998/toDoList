@@ -1,0 +1,63 @@
+.contenedorGlobal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columnasTareas{
+    border: 2px white solid;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    border-radius: 50px;
+    background: transparent;
+    backdrop-filter:blur(20px) ;
+    h1{
+        border-bottom: 2px solid rgb(0, 0, 0);
+        color: wheat;
+    }
+    .contenedorColumnas{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        border-radius: 50px;
+    }
+}
+.tareaCreada{
+    width: 95%;
+    height: 25%;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin: 0.5rem;
+}
+.columna{
+    width: 25%;
+    margin: 0.5rem;
+    border-radius: 50px;
+    border: 1px gray solid;
+    height: 90%;
+}
+button{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+}
+.izquierda{
+    align-items: end;
+    margin-right: 5rem;
+}
+.derecha{
+    align-items: flex-end;
+}
+.botonesMovimiento{
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+}
+button:hover{
+    opacity: 0.5;
+}
